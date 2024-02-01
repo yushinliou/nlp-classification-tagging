@@ -1,0 +1,4 @@
+wget -O slot_test.json "https://drive.google.com/uc?export=download&id=1k1NuudfNV3c82wj0i60_H_O-oCunv8Pw"
+wget -O intent_test.json "https://drive.google.com/uc?export=download&id=19uSbo4_kyQYsfopdC31nQbAI7WWDUKof"
+wget -O intent.pth "https://drive.google.com/uc?export=download&id=1J50PvuRXKSsstACXlSzH10h1uSOBra0J"
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1osWLKqbxCCwXwVi3yF64dJn32zMj5B0D' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1osWLKqbxCCwXwVi3yF64dJn32zMj5B0D" -O slot.pth && rm -rf /tmp/cookies.txt
